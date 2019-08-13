@@ -22,7 +22,6 @@ To run this program, travel to the global file named _liri-node-app_ in the **te
 * `spotify-this-song` --- _search songs on spotify_
 * `concert-this` --- _search for artist events_
 * `movie-this` --- _look up movie details_
-* `do-what-it-says` --- _faux speech (reads the random.txt file)_
 
 3. enter the 'song', 'band', or 'movie' you want to look up!
 
@@ -41,7 +40,7 @@ _or_
 
 This method retrieves any text in the _random.txt_ file.
 
-To customize, edit the _random.txt_ according to the Manual Lookup directions.
+*To customize, edit the _random.txt_ according to the Manual Lookup directions.*
 
 __And Your Done!!!__
 
