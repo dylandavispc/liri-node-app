@@ -67,6 +67,32 @@ __And Your Done!!!__
 * LIRI Screenshot
 ![LIRI Screenshot](screenshots/scrnshot-liri.png)
 
->go ahead. try to break my code looping the do-what-it-says...
+
+## Technologies Used
+
+* Node-Spotify-API
+* Axios
+  - OMDB API
+  - Bands In Town API
+* Moment.js
+* DotEnv
+* fs
+
+## Roles in App Development
+
+- Integrating & Formatting API Databases.
+
+- Researching API Database Documentation.
+
+- Coding Efficient and Legible JavaScript that utilizes Node.JS and the terminal.
+
+- Debugging possible input errors.
+
+- Crafting a Love-Filled README file that demonstrates & instructs awesome users: like you; how to use it.
+
+- Adapting from Programming Synchronous in HTTP, to Asynchronous in NodeJS.
+
+
+>go ahead. try to break my code by looping the random.txt...
 
 

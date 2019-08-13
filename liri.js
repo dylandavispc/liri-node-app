@@ -124,40 +124,40 @@ let liri = () => {
 
         searcher()
 
-      });
+    });
 }
 
 
 //Search & Sort Functions=======================================================
 const searcher = () => {
-for (var i = 3; i < nodeArgs.length; i++) {
+    for (var i = 3; i < nodeArgs.length; i++) {
 
-    if (i > 3 && i < nodeArgs.length) {
-        term = term + "+" + nodeArgs[i];
-    } else {
-        term += nodeArgs[i];
+        if (i > 3 && i < nodeArgs.length) {
+            term = term + "+" + nodeArgs[i];
+        } else {
+            term += nodeArgs[i];
+        }
+
     }
 
-}
+    switch(operator) {
 
-switch(operator) {
+        case "spotify-this-song":
+            spotifythis(term);
+            break;
+        case "concert-this":
+            concertthis(term);
+            break;
+        case "movie-this":
+            moviethis(term);
+            break;
+        case "do-what-it-says":
+            liri(term);
+            break;
+        default:
+            console.log('Please search with parameters "spotify-this-song", "concert-this", or "movie-this"');
 
-    case "spotify-this-song":
-        spotifythis(term);
-        break;
-    case "concert-this":
-        concertthis(term);
-        break;
-    case "movie-this":
-        moviethis(term);
-        break;
-    case "do-what-it-says":
-        liri(term);
-        break;
-    default:
-        console.log('Please search with parameters "spotify-this-song", "concert-this", or "movie-this"');
-
-}
+    }
 
 }
 
