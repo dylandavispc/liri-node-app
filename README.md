@@ -55,12 +55,18 @@ __And Your Done!!!__
 
 * [GitHub Repository](https://github.com/dylandavispc/liri-node-app)
 
+* Spotify-this Screenshot
 ![Spotify Screenshot](screenshots/scrnshot-spotify.png)
 
+* Concert-this Screenshot
 ![Concert Screenshot](screenshots/scrnshot-concert.png)
 
+* Movie-this Screenshot
 ![Movie Screenshot](screenshots/scrnshot-movie.png)
 
+* LIRI Screenshot
 ![LIRI Screenshot](screenshots/scrnshot-liri.png)
+
+>go ahead. try to break my code looping the do-what-it-says...
 
 

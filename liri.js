@@ -112,8 +112,15 @@ let liri = () => {
         term = dataArr[1]
 
         for ( i = 2; i < dataArr.length - 1; i++) {
-                term = term + "+" + dataArr[i];
+            term = term + "+" + dataArr[i];
         }
+
+        if (operator === "do-what-it-says") {
+            console.log("Ah-Ah-Ahh!... No Breaking my code Asshole!");
+            operator = "movie-this";
+            term = "The Human Centipede";
+        }
+
 
         searcher()
 
